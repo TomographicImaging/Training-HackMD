@@ -29,16 +29,16 @@ Learn how to use CIL for standard CT datasets, including analytical reconstructi
 
 ### Day 2: Wednesday 26th March -- Iterative Reconstruction Techniques with CIL
 Explore iterative reconstruction methods, going beyond SIRT and CGLS, and incorporating regularisation for improved results.
-<!--     
+  
 | Time        | Topic | Presenter |
 | ----------- | ----- | --------- |
 | 1:00 - 1:15 |Welcome, intro and cloud setup| Edoardo Pasca |
 | 1:15 - 2:15 | **Session 1: optimisation** <li>Introduction to optimisation lecture</li> <li>Explore notebooks in breakout rooms: <br> :open_file_folder: `1_Introduction` <br>&nbsp;&nbsp;:page_facing_up:`04_FBP_CGLS_SIRT.ipynb`</br>&nbsp;&nbsp;:page_facing_up:`05_usb_limited_angle_fbp_sirt.ipynb` (extension)</li>| Edoardo Pasca         |
 | 2:15 - 2:30 | Break |           |
-| 2:30 - 3:30 | **Session 2: regularisation** <li>Introduction to regularisation lecture</li><li>Explore notebook in breakout rooms:  <br>:open_file_folder: `2_Iterative` <br>&nbsp;&nbsp;:page_facing_up:`01_optimisation_gd_fista.ipynb`</br></li>| Jakob Sauer Jørgensen           |
+| 2:30 - 3:30 | **Session 2: regularisation** <li>Introduction to regularisation lecture and demo of notebook:<br>:open_file_folder: `binder` <br>&nbsp;&nbsp;:page_facing_up:`PyData22_deblurring.ipynb`</br></li><li>Explore notebook in breakout rooms:  <br>:open_file_folder: `2_Iterative` <br>&nbsp;&nbsp;:page_facing_up:`01_optimisation_gd_fista.ipynb`</br></li>| Jakob Sauer Jørgensen           |
 | 3:30 - 3:45 | Break |           |
 | 3:45 - 4:45 | **Session 3: Time to explore and discuss**<li>Introduction</li> <li>Choose from the following notebooks to explore in breakout rooms: <br> :open_file_folder: `2_Iterative` <br>&nbsp;&nbsp;:page_facing_up:`05_Laminography_with_TV.ipynb`</br>:open_file_folder: `3_Multichannel`<br>&nbsp;&nbsp;:page_facing_up:`03_Hyperspectral_reconstruction.ipynb`</br></li>  |Jakob Sauer Jørgensen|
-| 4:45 - 5:00 | Wrap-up and questions | Margaret Duff | -->
+| 4:45 - 5:00 | Wrap-up and questions | Margaret Duff | 
 
 
 
@@ -48,15 +48,15 @@ Explore iterative reconstruction methods, going beyond SIRT and CGLS, and incorp
 Dive into advanced capabilities, including building custom optimisation problems, using callbacks and preconditioners, and creating objective functions.
 
     
-<!-- | Time        | Topic | Presenter |
+| Time        | Topic | Presenter |
 | ----------- | ----- | --------- |
 |1:00 - 1:15 | Welcome, intro and cloud setup |
 | 1:15 - 2:30 | **Session 1: Building your own optimisation problem using the block framework** <li>Introduction to the Block framework and demo of notebook:<br> :open_file_folder: `2_Iterative `<br>&nbsp;&nbsp;:page_facing_up:`02_tikhonov_block_framework.ipynb`</br> </li><li> Explore notebook in breakout rooms<br> :open_file_folder: `4_Deep_Dives`<br>&nbsp;&nbsp;:page_facing_up:`03_htc_2022.ipynb`</br> </li> |Jakob Sauer Jørgensen|
 | 2:30 - 2:45 | Break |  |
 | 2:45 - 3:30 | **Session 2: Customising your optimisation method** <li>Introduction and demo of notebook<br> :open_file_folder: `4_Deep_Dives`<br>&nbsp;&nbsp;:page_facing_up:`01_callbacks.ipynb`</br></li><li>Explore notebook in breakout rooms: <br> :open_file_folder: `4_Deep_Dives` <br>&nbsp;&nbsp;:page_facing_up:`04_preconditioner_stepsize.ipynb`​</br></li> |Margaret Duff|
 | 3:30 - 3:45 | Break |  |
-| 4:00 - 4:45 | **Session 3: Time to explore and discuss**<li>Choose from the following notebooks to explore in breakout rooms: <br> :open_file_folder: `1_Introduction` <br>&nbsp;&nbsp;:page_facing_up:`03_where_is_my_reader.ipynb`</br>:open_file_folder: `4_Deep_Dives` <br>&nbsp;&nbsp;:page_facing_up:`DTV.ipynb`</br></li>  |   |
-| 4:45 - 5:00 | Wrap-up, next steps and questions |   | -->
+| 4:00 - 4:45 | **Session 3: Time to explore and discuss**<li>Choose from the following notebooks to explore in breakout rooms: <br> :open_file_folder: `1_Introduction` <br>&nbsp;&nbsp;:page_facing_up:`03_where_is_my_reader.ipynb`</br>:open_file_folder: `3_Multichannel` <br>&nbsp;&nbsp;:page_facing_up:`02_Dynamic_CT.ipynb`</br>:open_file_folder: `4_Deep_Dives` <br>&nbsp;&nbsp;:page_facing_up:`06_directional_TV.ipynb`</br>&nbsp;&nbsp;:page_facing_up:`04_phase_retrieval.ipynb`</li>  |   |
+| 4:45 - 5:00 | Wrap-up, next steps and questions |   | 
 
 ## :computer: Training platform instructions
 
@@ -150,6 +150,9 @@ We will be using mentimeter for interactive content and feedback, please check h
 ---
 ### :open_file_folder: `3_Multichannel`
 
+#### Questions about: `02_Dynamic_CT.ipynb`
+##### Add your questions here
+
 #### Questions about: `03_Hyperspectral_reconstruction.ipynb`
 ##### Add your question here
 
@@ -168,6 +171,8 @@ We will be using mentimeter for interactive content and feedback, please check h
 #### Questions about: `04_preconditioner_stepsize.ipynb`
 ##### Add your question here
 
+#### Questions about `06_directional_TV.ipynb`
+##### Add your questions here
 
 
 ## :book: Resources
